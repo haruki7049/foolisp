@@ -33,6 +33,7 @@
           treefmt = {
             projectRootFile = "flake.nix";
             programs.nixfmt.enable = true;
+            programs.google-java-format.enable = true;
             programs.actionlint.enable = true;
             programs.mdformat.enable = true;
           };
